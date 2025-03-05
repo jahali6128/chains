@@ -16807,7 +16807,7 @@
 }, {
   "name": "6Degree of Outreach",
   "chain": "6DO",
-  "rpc": ["https://rpc.6do.world"],
+  "rpc": ["https://rpc.6dochain.com", "https://rpc2.6dochain.com", "https://rpc3.6dochain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "6Degree Coin",
@@ -16826,7 +16826,7 @@
   "icon": "6do",
   "explorers": [{
     "name": "6Degree Chain Explorer",
-    "url": "https://explorer.6do.world",
+    "url": "https://explorer.6dochain.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -45385,7 +45385,7 @@
 }, {
   "name": "6Degree of Outreach - Testnet",
   "chain": "6DO",
-  "rpc": ["https://rpc-testnet.6do.world"],
+  "rpc": ["https://rpc-testnet.6dochain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "6Degree-Testnet Coin",
@@ -45404,7 +45404,7 @@
   "icon": "6do",
   "explorers": [{
     "name": "6Degree Testnet Chain Explorer",
-    "url": "https://explorer-testnet.6do.world",
+    "url": "https://explorer-testnet.6dochain.com",
     "standard": "EIP3091"
   }]
 }, {
