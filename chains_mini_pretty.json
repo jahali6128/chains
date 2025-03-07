@@ -2322,7 +2322,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://iost-mainnet.alt.technology", "wss://iost-mainnet.alt.technology/ws"],
+  "rpc": ["https://l2-mainnet.iost.io", "wss://l2-mainnet.iost.io"],
   "faucets": [],
   "infoURL": "https://iost.io"
 }, {
@@ -5589,6 +5589,19 @@
   "faucets": [],
   "infoURL": "https://www.electranetwork.tech"
 }, {
+  "name": "Radius Testnet",
+  "chainId": 863,
+  "shortName": "radius-testnet",
+  "networkId": 863,
+  "nativeCurrency": {
+    "name": "Useless",
+    "symbol": "USLS",
+    "decimals": 18
+  },
+  "rpc": ["https://dev-secure.rpc.theradius.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.theradius.xyz/"
+}, {
   "name": "Fantasia Chain Mainnet",
   "chainId": 868,
   "shortName": "FSCMainnet",
@@ -8045,6 +8058,19 @@
   "rpc": ["https://rpc.starworksglobal.com"],
   "faucets": [],
   "infoURL": "https://www.starworksglobal.com"
+}, {
+  "name": "Reactive Mainnet",
+  "chainId": 1597,
+  "shortName": "react",
+  "networkId": 1597,
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.rnk.dev"],
+  "faucets": [],
+  "infoURL": "https://reactive.network"
 }, {
   "name": "Betherance",
   "chainId": 1605,
@@ -12479,17 +12505,17 @@
   "faucets": [],
   "infoURL": ""
 }, {
-  "name": "Pioneer Zero Chain",
+  "name": "Pione Zero",
   "chainId": 5080,
   "shortName": "pzo",
   "networkId": 5080,
   "nativeCurrency": {
-    "name": "Pioneer Zero",
+    "name": "Pione Zero",
     "symbol": "PZO",
     "decimals": 18
   },
   "rpc": ["https://rpc.zeroscan.org"],
-  "faucets": ["https://faucet.zeroscan.org/faucet"],
+  "faucets": ["https://dex.pionechain.com/testnet/faucet/"],
   "infoURL": "https://pionechain.com"
 }, {
   "name": "Pione Chain Mainnet",
@@ -13607,6 +13633,19 @@
     "decimals": 18
   },
   "rpc": ["https://evm-rpc.nibiru.fi"],
+  "faucets": [],
+  "infoURL": "https://nibiru.fi"
+}, {
+  "name": "Nibiru testnet-2",
+  "chainId": 6911,
+  "shortName": "nibiru-testnet-2",
+  "networkId": 6911,
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.testnet-2.nibiru.fi"],
   "faucets": [],
   "infoURL": "https://nibiru.fi"
 }, {
@@ -19677,7 +19716,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.hemi.network/rpc"],
   "faucets": [],
   "infoURL": "https://hemi.xyz"
 }, {
@@ -19915,6 +19954,19 @@
   "faucets": [],
   "infoURL": "https://otherworld.network"
 }, {
+  "name": "Zircuit Garfield Testnet",
+  "chainId": 48898,
+  "shortName": "zircuit-garfield-testnet",
+  "networkId": 48898,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://garfield-testnet.zircuit.com/"],
+  "faucets": [],
+  "infoURL": "https://www.zircuit.com/"
+}, {
   "name": "Zircuit Testnet",
   "chainId": 48899,
   "shortName": "zircuit-testnet",
@@ -19924,7 +19976,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zircuit1-testnet.p2pify.com/"],
+  "rpc": ["https://testnet.zircuit.com"],
   "faucets": [],
   "infoURL": "https://www.zircuit.com/"
 }, {
@@ -19937,7 +19989,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://zircuit1-mainnet.p2pify.com/"],
+  "rpc": ["https://mainnet.zircuit.com"],
   "faucets": [],
   "infoURL": "https://www.zircuit.com/"
 }, {
@@ -26519,6 +26571,19 @@
   "faucets": [],
   "infoURL": "https://altlayer.io"
 }, {
+  "name": "Arcadia Mainnet",
+  "chainId": 4278608,
+  "shortName": "aip",
+  "networkId": 4278608,
+  "nativeCurrency": {
+    "name": "AIP",
+    "symbol": "AIP",
+    "decimals": 18
+  },
+  "rpc": ["https://arcadia.khalani.network"],
+  "faucets": [],
+  "infoURL": "https://khalani.network"
+}, {
   "name": "Worlds Caldera",
   "chainId": 4281033,
   "shortName": "worldscal",
@@ -26632,7 +26697,7 @@
     "symbol": "REACT",
     "decimals": 18
   },
-  "rpc": ["https://kopli-rpc.reactive.network", "http://kopli-rpc.rkt.ink"],
+  "rpc": ["https://kopli-rpc.rnk.dev"],
   "faucets": ["https://dev.reactive.network/docs/kopli-testnet#faucet"],
   "infoURL": "https://reactive.network"
 }, {

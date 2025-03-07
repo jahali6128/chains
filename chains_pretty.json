@@ -3700,7 +3700,7 @@
 }, {
   "name": "IOST Mainnet",
   "chain": "iost",
-  "rpc": ["https://iost-mainnet.alt.technology", "wss://iost-mainnet.alt.technology/ws"],
+  "rpc": ["https://l2-mainnet.iost.io", "wss://l2-mainnet.iost.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BNB Chain Native Token",
@@ -3715,14 +3715,14 @@
   "slip44": 714,
   "explorers": [{
     "name": "IOSTscan",
-    "url": "https://iost-mainnet-explorer.alt.technology",
+    "url": "https://l2-scan.iost.io",
     "standard": "EIP3091"
   }],
   "parent": {
     "type": "L2",
     "chain": "eip155-56",
     "bridges": [{
-      "url": "https://10910bc5-8382-4ef5-bdc7-4c54c8f57e75.bridges.rollbridge.app/"
+      "url": "https://l2-bridge.iost.io"
     }]
   }
 }, {
@@ -9220,6 +9220,20 @@
     "standard": "none"
   }]
 }, {
+  "name": "Radius Testnet",
+  "chain": "Radius",
+  "rpc": ["https://dev-secure.rpc.theradius.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Useless",
+    "symbol": "USLS",
+    "decimals": 18
+  },
+  "infoURL": "https://www.theradius.xyz/",
+  "shortName": "radius-testnet",
+  "chainId": 863,
+  "networkId": 863
+}, {
   "name": "Fantasia Chain Mainnet",
   "chain": "FSC",
   "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],
@@ -13132,6 +13146,32 @@
     "name": "StarCHAIN Explorer",
     "url": "https://starchainscan.io",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Reactive Mainnet",
+  "title": "Reactive Network",
+  "chain": "REACT",
+  "rpc": ["https://mainnet-rpc.rnk.dev"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "React",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  "infoURL": "https://reactive.network",
+  "shortName": "react",
+  "icon": "reactive",
+  "chainId": 1597,
+  "networkId": 1597,
+  "explorers": [{
+    "name": "Reactscan",
+    "url": "https://reactscan.net",
+    "standard": "none"
   }]
 }, {
   "name": "Betherance",
@@ -20553,13 +20593,13 @@
   }],
   "status": "active"
 }, {
-  "name": "Pioneer Zero Chain",
+  "name": "Pione Zero",
   "chain": "PZO",
   "icon": "pzo",
   "rpc": ["https://rpc.zeroscan.org"],
-  "faucets": ["https://faucet.zeroscan.org/faucet"],
+  "faucets": ["https://dex.pionechain.com/testnet/faucet/"],
   "nativeCurrency": {
-    "name": "Pioneer Zero",
+    "name": "Pione Zero",
     "symbol": "PZO",
     "decimals": 18
   },
@@ -20568,11 +20608,11 @@
   "chainId": 5080,
   "networkId": 5080,
   "explorers": [{
-    "name": "Pioneer Zero Chain Explorer",
+    "name": "Pione Zero Explorer",
     "url": "https://zeroscan.org",
     "standard": "EIP3091"
   }, {
-    "name": "Pioneer Zero Chain Explorer",
+    "name": "Pione Zero Explorer",
     "url": "https://zero.pionescan.com",
     "standard": "EIP3091"
   }]
@@ -22383,6 +22423,22 @@
   "shortName": "cataclysm-1",
   "chainId": 6900,
   "networkId": 6900,
+  "icon": "nibiru",
+  "explorers": []
+}, {
+  "name": "Nibiru testnet-2",
+  "chain": "Nibiru",
+  "rpc": ["https://evm-rpc.testnet-2.nibiru.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "infoURL": "https://nibiru.fi",
+  "shortName": "nibiru-testnet-2",
+  "chainId": 6911,
+  "networkId": 6911,
   "icon": "nibiru",
   "explorers": []
 }, {
@@ -32274,7 +32330,7 @@
 }, {
   "name": "Hemi Network",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://rpc.hemi.network/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -32286,12 +32342,17 @@
   "chainId": 43111,
   "networkId": 43111,
   "icon": "hemi",
-  "explorers": [],
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.hemi.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
   "parent": {
     "type": "L2",
     "chain": "eip155-1"
   },
-  "status": "incubating"
+  "status": "active"
 }, {
   "name": "Avalanche Fuji Testnet",
   "chain": "AVAX",
@@ -32730,10 +32791,31 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Zircuit Garfield Testnet",
+  "chain": "Zircuit Garfield Testnet",
+  "icon": "zircuit",
+  "rpc": ["https://garfield-testnet.zircuit.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zircuit.com/",
+  "shortName": "zircuit-garfield-testnet",
+  "chainId": 48898,
+  "networkId": 48898,
+  "explorers": [{
+    "name": "Zircuit",
+    "url": "https://explorer.garfield-testnet.zircuit.com",
+    "icon": "zircuit",
+    "standard": "none"
+  }]
+}, {
   "name": "Zircuit Testnet",
   "chain": "Zircuit Testnet",
   "icon": "zircuit",
-  "rpc": ["https://zircuit1-testnet.p2pify.com/"],
+  "rpc": ["https://testnet.zircuit.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -32754,7 +32836,7 @@
   "name": "Zircuit Mainnet",
   "chain": "Zircuit Mainnet",
   "icon": "zircuit",
-  "rpc": ["https://zircuit1-mainnet.p2pify.com/"],
+  "rpc": ["https://mainnet.zircuit.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "ETH",
@@ -43803,6 +43885,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Arcadia Mainnet",
+  "chain": "Arcadia",
+  "rpc": ["https://arcadia.khalani.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "AIP",
+    "symbol": "AIP",
+    "decimals": 18
+  },
+  "infoURL": "https://khalani.network",
+  "shortName": "aip",
+  "chainId": 4278608,
+  "networkId": 4278608,
+  "explorers": [{
+    "name": "Arcadia Mainnet Explorer",
+    "url": "https://explorer.arcadia.khalani.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Worlds Caldera",
   "chain": "WCal",
   "rpc": ["https://worlds-test.calderachain.xyz/http"],
@@ -44001,7 +44102,7 @@
   "name": "Reactive Kopli",
   "title": "Reactive Network Testnet Kopli",
   "chain": "REACT",
-  "rpc": ["https://kopli-rpc.reactive.network", "http://kopli-rpc.rkt.ink"],
+  "rpc": ["https://kopli-rpc.rnk.dev"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -44019,7 +44120,7 @@
   "chainId": 5318008,
   "networkId": 5318008,
   "explorers": [{
-    "name": "reactscan",
+    "name": "Reactscan",
     "url": "https://kopli.reactscan.net",
     "standard": "none"
   }]
